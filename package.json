@@ -1,0 +1,14 @@
+{
+  "name": "tycoon template",
+  "version": "1.0.0",
+  "description": "Electron based tycoon game (Cookie Clicker) template",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "puzzelism",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.2.3"
+  }
+}

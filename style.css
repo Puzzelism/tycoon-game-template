@@ -1,0 +1,79 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+legend {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.stats {
+    display: grid;
+    justify-items: left;
+}
+
+button {
+    display: inline-block;
+    outline: none;
+    color: black;
+    background-color: SkyBlue;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px DarkGray;
+}
+
+button:hover {
+    background-color: SteelBlue;
+}
+
+button:active {
+    background-color: SteelBlue;
+    box-shadow: 0 5px DimGray;
+    transform: translateY(4px);
+}
+
+.count {
+    margin: 0px;
+    padding: 8px;
+    color: gray;
+}
+
+.cost {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font: bold;
+}
+
+#shop {
+    display: block;
+    justify-items: center;
+}
+
+#buyable {
+    background-color: white;
+    display: inline-grid;
+}
+
+#desc {
+    padding: 0px;
+    margin: 0px;
+    color: gray;
+    font: italic;
+}
+
+#click {
+    padding: 20px;
+    margin: 20px;
+    font-size: 2em;
+}
+
+#points {
+    font-size: 20px;
+}
+
+#persec {
+    size: 20px;
+}
